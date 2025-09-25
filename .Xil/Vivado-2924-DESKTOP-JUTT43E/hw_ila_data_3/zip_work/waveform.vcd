@@ -1,0 +1,61 @@
+$date
+        2025-Sep-25 13:27:05
+$end
+$version
+        Vivado v2023.2.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/ps7_0_axi_periph_M00_AXI_WREADY $end
+$var reg 4 # design_1_i/ps7_0_axi_periph_M00_AXI_AWADDR [3:0] $end
+$var reg 2 ' design_1_i/ps7_0_axi_periph_M00_AXI_BRESP [1:0] $end
+$var reg 1 ) design_1_i/ps7_0_axi_periph_M00_AXI_BVALID $end
+$var reg 1 * design_1_i/ps7_0_axi_periph_M00_AXI_BREADY $end
+$var reg 4 + design_1_i/ps7_0_axi_periph_M00_AXI_ARADDR [3:0] $end
+$var reg 1 / design_1_i/ps7_0_axi_periph_M00_AXI_RREADY $end
+$var reg 1 0 design_1_i/ps7_0_axi_periph_M00_AXI_WVALID $end
+$var reg 1 1 design_1_i/ps7_0_axi_periph_M00_AXI_ARVALID $end
+$var reg 1 2 design_1_i/ps7_0_axi_periph_M00_AXI_ARREADY $end
+$var reg 32 3 design_1_i/ps7_0_axi_periph_M00_AXI_RDATA [31:0] $end
+$var reg 1 S design_1_i/ps7_0_axi_periph_M00_AXI_AWVALID $end
+$var reg 1 T design_1_i/ps7_0_axi_periph_M00_AXI_AWREADY $end
+$var reg 2 U design_1_i/ps7_0_axi_periph_M00_AXI_RRESP [1:0] $end
+$var reg 32 W design_1_i/ps7_0_axi_periph_M00_AXI_WDATA [31:0] $end
+$var reg 4 w design_1_i/ps7_0_axi_periph_M00_AXI_WSTRB [3:0] $end
+$var reg 1 { design_1_i/ps7_0_axi_periph_M00_AXI_RVALID $end
+$var reg 3 | design_1_i/ps7_0_axi_periph_M00_AXI_ARPROT [2:0] $end
+$var reg 3 !" design_1_i/ps7_0_axi_periph_M00_AXI_AWPROT [2:0] $end
+$var reg 1 $" _TRIGGER $end
+$var reg 1 %" _WINDOW $end
+$var reg 1 &" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b1010 #
+b0 '
+0)
+0*
+b1010 +
+0/
+00
+01
+02
+b0 3
+0S
+0T
+b0 U
+b11111010111010101001101111101001 W
+b1011 w
+0{
+b110 |
+b110 !"
+0$"
+1%"
+0&"
+$end
+#2048
+1$"

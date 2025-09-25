@@ -1,0 +1,35 @@
+Nothing to build in platform 'axi_colib'
+
+14:08:11 **** Incremental Build of configuration Debug for project axi_c ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/sw/axi_colib/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: axi_c.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/sw/axi_colib/standalone_domain/bsplib/lib -o "axi_c.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_c.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size axi_c.elf  |tee "axi_c.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53559	   2552	  22632	  78743	  13397	axi_c.elf
+'Finished building: axi_c.elf.size'
+' '
+14:08:12 **** Incremental Build of configuration Debug for project axi_c_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 49931 C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/axi_colib.xpfm standalone_domain C:/Vivado_Projects/AXI_COLIB/axi_c_system/Debug/system.bif
+Режим вывода команд на экран (ECHO) отключен.
+Режим вывода команд на экран (ECHO) отключен.
+sdcard_gen --xpfm C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/axi_colib.xpfm --sys_config axi_colib --bif C:/Vivado_Projects/AXI_COLIB/axi_c_system/Debug/system.bif --bitstream C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit --elf C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf,ps7_cortexa9_0
+Режим вывода команд на экран (ECHO) отключен.
+Режим вывода команд на экран (ECHO) отключен.
+creating BOOT.BIN using C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit
+Running C:/Xilinx/Vitis/2023.2/bin/bootgen  -image C:/Vivado_Projects/AXI_COLIB/axi_c_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

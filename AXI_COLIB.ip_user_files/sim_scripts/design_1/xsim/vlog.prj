@@ -1,0 +1,38 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/570d/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/e2ba/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a29c/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ae90/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/0e59/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/570d/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/e2ba/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a29c/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ae90/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/0e59/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/hdl/verilog" \
+"../../../bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv" \
+"../../../bd/design_1/ipshared/a7f0/src/fifo.sv" \
+"../../../bd/design_1/ipshared/a7f0/src/spi.sv" \
+
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/570d/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/e2ba/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a29c/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ae90/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/0e59/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/hdl/verilog" \
+"../../../bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0.v" \
+"../../../bd/design_1/ip/design_1_dac_lite_0_0/sim/design_1_dac_lite_0_0.v" \
+"../../../bd/design_1/ip/design_1_xbar_0/sim/design_1_xbar_0.v" \
+"../../../bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" \
+"../../../bd/design_1/ip/design_1_ila_1_0/sim/design_1_ila_1_0.v" \
+"../../../bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/sim/ila_adc.v" \
+"../../../bd/design_1/ipshared/4ca3/hdl/adc_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/4ca3/hdl/adc_lite_v1_0.v" \
+
+sv xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/570d/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/e2ba/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a29c/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ae90/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/0e59/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/hdl/verilog" \
+"../../../bd/design_1/ipshared/4ca3/src/comm_sys.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/core_spi.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/data_analyzer.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/fifo_rx.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/median_filter.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/sck_gen.sv" \
+"../../../bd/design_1/ipshared/4ca3/src/temp_wrapper.sv" \
+
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/570d/hdl" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/e2ba/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a29c/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/ae90/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ipshared/0e59/hdl/verilog" --include "../../../../AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_adc_lite_0_2/src/ila_adc_1/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_adc_lite_0_2/sim/design_1_adc_lite_0_2.v" \
+"../../../bd/design_1/ip/design_1_ila_2_0/sim/design_1_ila_2_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

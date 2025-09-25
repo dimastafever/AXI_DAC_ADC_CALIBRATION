@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi_c" location="C:/Vivado_Projects/AXI_COLIB/axi_c" platform="C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/axi_colib.xpfm" platformUID="xilinx:zedboard::0.0(custom)" systemProject="axi_c_system" sysConfig="axi_colib" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="3e9783ee34e86def396a273265085833">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.12972881">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.859606911" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

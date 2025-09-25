@@ -1,0 +1,300 @@
+
+*** Running vivado
+    with args -log design_1_dac_lite_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dac_lite_0_0.tcl
+
+
+Режим вывода команд на экран (ECHO) отключен.
+Режим вывода команд на экран (ECHO) отключен.
+
+****** Vivado v2023.2.2 (64-bit)
+  **** SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+  **** IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+  **** SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Xilinx/Vivado/2023.2/scripts/Vivado_init.tcl'
+0 Beta devices matching pattern found, 0 enabled.
+enable_beta_device: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 431.613 ; gain = 161.051
+source design_1_dac_lite_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/adc_lite_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/dac_lite_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Vivado_Projects/ip_repo/adc_lite_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/adc_lite_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/adc_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/dac_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/DMA'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_dac_lite_0_0
+Command: synth_design -top design_1_dac_lite_0_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 12756
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1329.160 ; gain = 441.230
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'ila_dat', assumed default net type 'wire' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv:27]
+INFO: [Synth 8-11241] undeclared symbol 'ila_tready', assumed default net type 'wire' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv:28]
+INFO: [Synth 8-11241] undeclared symbol 'ila_tvalid', assumed default net type 'wire' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv:29]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dac_lite_0_0' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_dac_lite_0_0/synth/design_1_dac_lite_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'dac_lite_v1_0' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dac_lite_v1_0_S00_AXI' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0_S00_AXI.v:235]
+INFO: [Synth 8-226] default block is never used [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0_S00_AXI.v:376]
+INFO: [Synth 8-6157] synthesizing module 'DAC_wrapper' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'spi' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/spi.sv:1]
+WARNING: [Synth 8-6090] variable 'cs_counter' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/spi.sv:131]
+WARNING: [Synth 8-6090] variable 'ldac_counter' is written by both blocking and non-blocking assignments, entire logic could be removed [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/spi.sv:167]
+INFO: [Synth 8-6155] done synthesizing module 'spi' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/spi.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/fifo.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/fifo.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'DAC_wrapper' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/src/DAC_wrapper.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'dac_lite_v1_0_S00_AXI' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'dac_lite_v1_0' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ipshared/a7f0/hdl/dac_lite_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dac_lite_0_0' (0#1) [c:/Vivado_Projects/AXI_COLIB/AXI_COLIB.gen/sources_1/bd/design_1/ip/design_1_dac_lite_0_0/synth/design_1_dac_lite_0_0.v:53]
+WARNING: [Synth 8-7137] Register mem_reg in module fifo has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'mem_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "mem_reg" dissolved into registers
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module dac_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1447.113 ; gain = 559.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1447.113 ; gain = 559.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1447.113 ; gain = 559.184
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1447.113 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1474.336 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Системе не удается найти указанный путь.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1476.617 ; gain = 2.281
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 23    
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   4 Input   32 Bit        Muxes := 5     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 7     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 54    
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module design_1_dac_lite_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module design_1_dac_lite_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module design_1_dac_lite_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module design_1_dac_lite_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module design_1_dac_lite_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module design_1_dac_lite_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     4|
+|2     |LUT2  |     7|
+|3     |LUT3  |    26|
+|4     |LUT4  |    43|
+|5     |LUT5  |    19|
+|6     |LUT6  |   201|
+|7     |MUXF7 |    64|
+|8     |MUXF8 |    32|
+|9     |FDCE  |   105|
+|10    |FDPE  |     2|
+|11    |FDRE  |   681|
+|12    |FDSE  |     1|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1476.617 ; gain = 559.184
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1476.617 ; gain = 588.688
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1476.617 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1480.262 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Системе не удается найти указанный путь.
+Synth Design complete | Checksum: 725e8a15
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1480.262 ; gain = 1014.496
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1480.262 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/design_1_dac_lite_0_0_synth_1/design_1_dac_lite_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_dac_lite_0_0, cache-ID = 1a503158a552ff1c
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1480.262 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/design_1_dac_lite_0_0_synth_1/design_1_dac_lite_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_dac_lite_0_0_utilization_synth.rpt -pb design_1_dac_lite_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 23 16:09:47 2025...

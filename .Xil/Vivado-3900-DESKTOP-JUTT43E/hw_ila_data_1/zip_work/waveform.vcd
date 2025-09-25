@@ -1,0 +1,119 @@
+$date
+        2025-Sep-23 11:05:03
+$end
+$version
+        Vivado v2023.2.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/processing_system7_0_M_AXI_GP0_WREADY $end
+$var reg 32 # design_1_i/processing_system7_0_M_AXI_GP0_AWADDR [31:0] $end
+$var reg 2 C design_1_i/processing_system7_0_M_AXI_GP0_BRESP [1:0] $end
+$var reg 1 E design_1_i/processing_system7_0_M_AXI_GP0_BVALID $end
+$var reg 1 F design_1_i/processing_system7_0_M_AXI_GP0_BREADY $end
+$var reg 32 G design_1_i/processing_system7_0_M_AXI_GP0_ARADDR [31:0] $end
+$var reg 1 g design_1_i/processing_system7_0_M_AXI_GP0_RREADY $end
+$var reg 1 h design_1_i/processing_system7_0_M_AXI_GP0_WVALID $end
+$var reg 1 i design_1_i/processing_system7_0_M_AXI_GP0_ARVALID $end
+$var reg 1 j design_1_i/processing_system7_0_M_AXI_GP0_ARREADY $end
+$var reg 32 k design_1_i/processing_system7_0_M_AXI_GP0_RDATA [31:0] $end
+$var reg 1 -" design_1_i/processing_system7_0_M_AXI_GP0_AWVALID $end
+$var reg 1 ." design_1_i/processing_system7_0_M_AXI_GP0_AWREADY $end
+$var reg 2 /" design_1_i/processing_system7_0_M_AXI_GP0_RRESP [1:0] $end
+$var reg 32 1" design_1_i/processing_system7_0_M_AXI_GP0_WDATA [31:0] $end
+$var reg 4 Q" design_1_i/processing_system7_0_M_AXI_GP0_WSTRB [3:0] $end
+$var reg 1 U" design_1_i/processing_system7_0_M_AXI_GP0_RVALID $end
+$var reg 3 V" design_1_i/processing_system7_0_M_AXI_GP0_ARPROT [2:0] $end
+$var reg 3 Y" design_1_i/processing_system7_0_M_AXI_GP0_AWPROT [2:0] $end
+$var reg 12 \" design_1_i/processing_system7_0_M_AXI_GP0_AWID [11:0] $end
+$var reg 12 h" design_1_i/processing_system7_0_M_AXI_GP0_BID [11:0] $end
+$var reg 4 t" design_1_i/processing_system7_0_M_AXI_GP0_AWLEN [3:0] $end
+$var reg 1 x" design_1_i/<const0>_1 $end
+$var reg 3 y" design_1_i/processing_system7_0_M_AXI_GP0_AWSIZE [2:0] $end
+$var reg 2 |" design_1_i/processing_system7_0_M_AXI_GP0_AWBURST [1:0] $end
+$var reg 12 ~" design_1_i/processing_system7_0_M_AXI_GP0_ARID [11:0] $end
+$var reg 2 ,# design_1_i/processing_system7_0_M_AXI_GP0_AWLOCK [1:0] $end
+$var reg 4 .# design_1_i/processing_system7_0_M_AXI_GP0_ARLEN [3:0] $end
+$var reg 3 2# design_1_i/processing_system7_0_M_AXI_GP0_ARSIZE [2:0] $end
+$var reg 2 5# design_1_i/processing_system7_0_M_AXI_GP0_ARBURST [1:0] $end
+$var reg 2 7# design_1_i/processing_system7_0_M_AXI_GP0_ARLOCK [1:0] $end
+$var reg 4 9# design_1_i/processing_system7_0_M_AXI_GP0_ARCACHE [3:0] $end
+$var reg 4 =# design_1_i/processing_system7_0_M_AXI_GP0_AWCACHE [3:0] $end
+$var reg 1 A# design_1_i/<const0>_2 $end
+$var reg 1 B# design_1_i/<const0>_3 $end
+$var reg 1 C# design_1_i/<const0>_4 $end
+$var reg 1 D# design_1_i/<const0>_5 $end
+$var reg 4 E# design_1_i/processing_system7_0_M_AXI_GP0_ARQOS [3:0] $end
+$var reg 1 I# design_1_i/<const0>_6 $end
+$var reg 1 J# design_1_i/<const0>_7 $end
+$var reg 4 K# design_1_i/processing_system7_0_M_AXI_GP0_AWQOS [3:0] $end
+$var reg 12 O# design_1_i/processing_system7_0_M_AXI_GP0_RID [11:0] $end
+$var reg 1 [# design_1_i/<const0>_8 $end
+$var reg 1 \# design_1_i/processing_system7_0_M_AXI_GP0_RLAST $end
+$var reg 1 ]# design_1_i/<const0>_9 $end
+$var reg 1 ^# design_1_i/processing_system7_0_M_AXI_GP0_WLAST $end
+$var reg 1 _# design_1_i/<const0> $end
+$var reg 12 `# design_1_i/processing_system7_0_M_AXI_GP0_WID [11:0] $end
+$var reg 1 l# _TRIGGER $end
+$var reg 1 m# _WINDOW $end
+$var reg 1 n# _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b1000011110000000000000000000000 #
+b0 C
+0E
+1F
+b11010100000000001110100011011111 G
+1g
+0h
+0i
+1j
+b0 k
+0-"
+1."
+b0 /"
+b1010101010101010101010101010101 1"
+b1111 Q"
+0U"
+b11 V"
+b1 Y"
+b110000000000 \"
+b110000000000 h"
+b0 t"
+0x"
+b10 y"
+b1 |"
+b110011111111 ~"
+b0 ,#
+b1001 .#
+b11 2#
+b11 5#
+b10 7#
+b1111 9#
+b10 =#
+0A#
+0B#
+0C#
+0D#
+b111 E#
+0I#
+0J#
+b0 K#
+b0 O#
+0[#
+0\#
+0]#
+1^#
+0_#
+b110000000000 `#
+0l#
+1m#
+0n#
+$end
+#2048
+1l#
