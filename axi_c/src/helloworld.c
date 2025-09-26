@@ -34,9 +34,10 @@ int read_data_in_reg() {
 	return Xil_In32 (XPAR_ADC_LITE_0_S00_AXI_BASEADDR);
 }
 float get_voltage(int data);
-void test(float kx,float bx);
+void test(float kx,float bx,float step);
 float get_offset(int system);
 void print_float(float Input);
+float voltage_step(int data1, int data2);
 void calibration(){
 	int values[] = {0x01F00000, 0x01B00000};
 	float voltage[2];
@@ -53,11 +54,18 @@ void calibration(){
 		if (voltage[i] == -1)
 			xil_printf("Huge error,data wrong");
 	}
-	float kx = (values[1]-values[0])/(data[1]-data[0]);
+	float kx = fabs((values[0]-values[1])/256)/fabs(data[0]-data[1]);
+	float bx = ((offset[1]-offset[0])/(voltage[0]-voltage[1]))*((values[0]-values[1])/256);
+	xil_printf("Your X = ");
 	print_float(kx);
-	float bx = ((offset[1]-offset[0])/(voltage[0]-voltage[1]))*(values[1]-values[0]);
-	printf("Your X = %f *x +%f;",kx,bx);
-	test(kx,bx);
+	xil_printf("*x +");
+	print_float(bx);
+	//printf("Your X = %f *x +%f;",kx,bx);
+	float step = voltage_step(data[0],data[1]);
+	test(kx,bx,step);
+}
+float voltage_step(int data1, int data2){
+	return (get_voltage(data1) - get_voltage(data2))/(data1-data2);;
 }
 void print_float(float Input)
 {
@@ -71,25 +79,26 @@ void print_float(float Input)
 
     long int frac_part = (long int) (Input*1000.0 - fix_part*1000);
     xil_printf("%d", fix_part);
-    xil_printf(".%d\r\n", frac_part);
+    xil_printf(".%d", frac_part);
 }
 float get_voltage(int data) {
     switch (data) {
-        case 0x7F000000: return 0.0;
-        case 0x7F001400: return 0.3;
+        case 0x7F000000: return 0.00;
+        case 0x7F001400: return 0.30;
         case 0x7F003000: return 0.88;
         case 0x7F002200: return 0.46;
-        case 0x7F003D00: return 0.62;
+       // case 0x7F003D00: return 0.62;
+        case 0x7F001B00: return 0.40;
         default: return -1.0;
     }
 }
 float get_offset(int system){
 	if(system)  //1 for adc
 		return 0;
-	else return -1.94;	//0 for dac
-	return -1;
+	else return -1.1;	//0 for dac -1.94
+	return -1.0;
 }
-void test(float kx,float bx){
+void test(float kx,float bx,float step){
 	xil_printf("\n");
 	int values[] = {0x01C00000, 0x01D00000};
 	int data[2];
@@ -99,7 +108,13 @@ void test(float kx,float bx){
 		for (int delay = 0; delay < 10000000; delay++);
 		data[i] = read_data_in_reg();
 		xil_printf(" Result: 0x%08X ",data[i]);
-		xil_printf(" Expected data: 0x%08X\n",data[i]*kx+bx);
+		xil_printf(" Expected data: 0x%08X\n",abs((data[i]-2130706432)*kx+bx)*256);
+		xil_printf("Expected voltage: ");
+		print_float(get_voltage(data[i]));
+		xil_printf(" Calculated voltage: ");
+		print_float(step*(data[i]-2130706432)); // -get_offset(i) for !=0;
+		xil_printf("\n");
+		//print_float(kx);
 	}
 }
 int main() {
@@ -108,11 +123,12 @@ int main() {
 
 	calibration();
     xil_printf("AXI Lite Example Completed\n");
+
     cleanup_platform();
     return 0;
 }
 /*
-   int values[] = {0x01000000, 0x01B00000, 0x01F00000};
+   int values[] = {0x01000000,0x01C00000, 0x01F00000};
 	//int num_values = sizeof(values) / sizeof(values[0]);
 	int i=0;
     while(1) {

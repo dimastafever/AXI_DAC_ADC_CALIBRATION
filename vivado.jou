@@ -3,57 +3,14 @@
 # SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
 # IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
 # SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
-# Start of session at: Thu Sep 25 10:52:09 2025
-# Process ID: 2924
+# Start of session at: Fri Sep 26 13:10:25 2025
+# Process ID: 12896
 # Current directory: C:/Vivado_Projects/AXI_COLIB
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2808 C:\Vivado_Projects\AXI_COLIB\AXI_COLIB.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7076 C:\Vivado_Projects\AXI_COLIB\AXI_COLIB.xpr
 # Log file: C:/Vivado_Projects/AXI_COLIB/vivado.log
 # Journal file: C:/Vivado_Projects/AXI_COLIB\vivado.jou
 # Running On: DESKTOP-JUTT43E, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 8392 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.xpr
-open_hw_manager
 update_compile_order -fileset sources_1
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
-set_property PROBES.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/adc_lite_0/inst/adc_lite_v1_0_S00_AXI_inst/ila_adc"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_1"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-close_hw_manager
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
-set_property PROBES.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {C:/Vivado_Projects/AXI_COLIB/AXI_COLIB.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/adc_lite_0/inst/adc_lite_v1_0_S00_AXI_inst/ila_adc"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_1"}]]
-display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_2"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
-run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_1"}]
-wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_1"}]
-display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"design_1_i/ila_1"}]]
