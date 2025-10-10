@@ -10604,3 +10604,1955 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 15:03:54.601
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 15:03:54.602
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 15:05:25.367
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 15:05:25.368
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 15:10:41.999
+!MESSAGE XSCT Command: [disconnect tcfchan#7], Thread: Thread-369
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 15:10:42.002
+!MESSAGE XSCT command with result: [disconnect tcfchan#7], Result: [null, ]. Thread: Thread-369
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 16:38:31.806
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 16:38:31.808
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:28:04.521
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-09-26 17:28:04.544
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+!SESSION 2025-10-03 09:47:27.425 -----------------------------------------------
+eclipse.buildId=2023.2
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-10-03 09:54:21.791
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-10-03 09:54:26.446
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-10-03 09:54:26.447
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-10-03 09:54:26.448
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:30.630
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:30.631
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:30.645
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.789
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.790
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.791
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.792
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.793
+!MESSAGE XSCT Command: [setws C:/Vivado_Projects/AXI_COLIB], Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.794
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2023.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:54:36.796
+!MESSAGE XSCT command with result: [setws C:/Vivado_Projects/AXI_COLIB], Result: [null, ]. Thread: Thread-32
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:10.887
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.635
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.638
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.652
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Result: [null, {"adc_lite_0": {"hier_name": "adc_lite_0",
+"type": "adc_lite",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"dac_lite_0": {"hier_name": "dac_lite_0",
+"type": "dac_lite",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"ila_0": {"hier_name": "ila_0",
+"type": "ila",
+"version": "6.2",
+"ip_type": "MONITOR",
+},
+"ila_1": {"hier_name": "ila_1",
+"type": "ila",
+"version": "6.2",
+"ip_type": "MONITOR",
+},
+"ila_2": {"hier_name": "ila_2",
+"type": "ila",
+"version": "6.2",
+"ip_type": "MONITOR",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.655
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.658
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Wed Sep 24 17:38:23 2025",
+"vivado_version": "2023.2.2",
+"part": "xc7z020clg484-1",
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.818
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.833
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.834
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.848
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Result: [null, {"adc_lite_0": {},
+"dac_lite_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.849
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.872
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Result: [null, {"dac_lite_0_S00_AXI": {"name": "dac_lite_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"adc_lite_0_S00_AXI": {"name": "adc_lite_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.875
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.880
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.881
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.890
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.891
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.897
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.898
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.901
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.901
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.918
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.919
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.921
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.922
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.926
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.927
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.936
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1], Result: [null, {"adc_lite_0": {},
+"dac_lite_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.937
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.966
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1], Result: [null, {"dac_lite_0_S00_AXI": {"name": "dac_lite_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"adc_lite_0_S00_AXI": {"name": "adc_lite_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.970
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.976
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:20.978
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.011
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.011
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.014
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.014
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.017
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.018
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.020
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.020
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.022
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.025
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.060
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa ps7_cortexa9_0], Result: [null, adc_lite_0 dac_lite_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.063
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa bit], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.067
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa bit], Result: [null, axi_colib.bit]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:21.074
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.442
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.444
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.723
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.725
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.728
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2.2]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.728
+!MESSAGE XSCT Command: [version], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.730
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.2
+SW Build 0 on 2024-02-08-22:35:28
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.749
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.756
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.757
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.778
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.782
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.788
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.789
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.809
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.812
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.818
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.818
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.837
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.839
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.857
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.857
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.874
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.875
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.881
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.882
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.903
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.904
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.910
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.911
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.934
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.935
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.952
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.953
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.955
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.956
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.966
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:23.967
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:24.027
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:24.028
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.035
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.071
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.077
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.078
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.094
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.110
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.155
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:27.157
+!MESSAGE XSCT Command: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.512
+!MESSAGE XSCT command with result: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.539
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.550
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.551
+!MESSAGE XSCT Command: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.604
+!MESSAGE XSCT command with result: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.605
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.607
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.608
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.619
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.620
+!MESSAGE XSCT Command: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.639
+!MESSAGE XSCT command with result: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.640
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.868
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.869
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.878
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.879
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.888
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:29.888
+!MESSAGE XSCT Command: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.030
+!MESSAGE XSCT command with result: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.031
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.076
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.191
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.216
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.217
+!MESSAGE XSCT Command: [con], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:30.242
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:55:30.248
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:55:30.248
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:40.961
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-115
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:40.967
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-115
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.068
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.080
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.081
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.094
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.095
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.096
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2.2]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.097
+!MESSAGE XSCT Command: [version], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.098
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.2
+SW Build 0 on 2024-02-08-22:35:28
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.099
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.108
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.109
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.129
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.129
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.139
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.140
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.163
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.166
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.173
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.174
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.202
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.203
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.211
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.212
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.231
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.232
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.239
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.239
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.259
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.260
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.266
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.267
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.287
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.288
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.305
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.306
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.308
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.308
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.327
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.328
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.396
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:41.397
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.407
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.421
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.430
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.431
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.448
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.449
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.482
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:44.483
+!MESSAGE XSCT Command: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:46.868
+!MESSAGE XSCT command with result: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:46.890
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:46.904
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:46.905
+!MESSAGE XSCT Command: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.182
+!MESSAGE XSCT command with result: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.183
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.185
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.185
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.194
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.195
+!MESSAGE XSCT Command: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.197
+!MESSAGE XSCT command with result: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.197
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.412
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.413
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.426
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.427
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.435
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.436
+!MESSAGE XSCT Command: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.575
+!MESSAGE XSCT command with result: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.576
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.601
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.703
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.716
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.717
+!MESSAGE XSCT Command: [con], Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:55:56.742
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:55:56.744
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:55:56.745
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:18.471
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-166
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:18.473
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-166
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.033
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.037
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.038
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.204
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.205
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.207
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.2.2]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.208
+!MESSAGE XSCT Command: [version], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.209
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.2.2
+SW Build 0 on 2024-02-08-22:35:28
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.209
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.215
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.216
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.233
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.233
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.241
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.241
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.261
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.261
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.267
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.268
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.285
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.285
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.292
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.293
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.309
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.310
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.317
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.318
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.336
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.337
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.343
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.344
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.361
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.362
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.379
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248B02027" && level == 0}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.380
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.382
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.383
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.391
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.392
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.468
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:25.469
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.486
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.506
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.515
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zed 210248B02027]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.515
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.532
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.533
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.566
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248B02027" && level==0 && jtag_device_ctx=="jsn-Zed-210248B02027-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:28.567
+!MESSAGE XSCT Command: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:30.947
+!MESSAGE XSCT command with result: [fpga -file C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/bitstream/axi_colib.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:30.971
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:30.984
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:30.985
+!MESSAGE XSCT Command: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.250
+!MESSAGE XSCT command with result: [loadhw -hw C:/Vivado_Projects/AXI_COLIB/axi_colib/export/axi_colib/hw/axi_colib.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_1]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.251
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.253
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.254
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.262
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.263
+!MESSAGE XSCT Command: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.264
+!MESSAGE XSCT command with result: [source C:/Vivado_Projects/AXI_COLIB/axi_c/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.265
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.490
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.491
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.505
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.506
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.515
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.515
+!MESSAGE XSCT Command: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.648
+!MESSAGE XSCT command with result: [dow C:/Vivado_Projects/AXI_COLIB/axi_c/Debug/axi_c.elf], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.649
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.692
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.822
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.832
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.833
+!MESSAGE XSCT Command: [con], Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:56:40.857
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3: Launching SystemDebugger_axi_c_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:56:40.859
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-10-03 09:56:40.860
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:57:43.320
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-217
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-10-03 09:57:43.324
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-217

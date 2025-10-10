@@ -7,7 +7,7 @@
 <Project Product="Vivado" Version="7" Minor="65" Path="c:/vivado_projects/axi_colib/axi_colib.tmp/dac_lite_v1_0_project/dac_lite_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="85c71d58406f40559abec6c39907e78d"/>
+    <Option Name="Id" Val="80f553551c2d47bcac3fa4083d0b82cb"/>
     <Option Name="Part" Val="xc7z020clg484-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -47,6 +47,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Vivado_Projects/ip_repo/myip_1_0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Vivado_Projects/ip_repo/adc_lite_1_0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Vivado_Projects/ip_repo/dac_lite_1_0"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Vivado_Projects/ip_repo/adc_lite_1_0"/>

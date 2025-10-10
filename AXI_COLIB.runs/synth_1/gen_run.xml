@@ -67,8 +67,8 @@
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_ila_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_ila_2_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_dac_lite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_adc_lite_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_dac_lite_0_0"/>
 </GenRun>
