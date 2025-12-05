@@ -3,13 +3,13 @@ module spi #(
     parameter FIFO_DEPTH = 2,
     parameter DATA_WIDTH = 32       
 )(
-    input  logic        clk,        // Тактовая частота системы
-    input  logic        reset_n,    // Асинхронный сброс (активный 0)
+    input  logic        clk,        // Г’Г ГЄГІГ®ГўГ Гї Г·Г Г±ГІГ®ГІГ  Г±ГЁГ±ГІГҐГ¬Г»
+    input  logic        reset_n,    // ГЂГ±ГЁГ­ГµГ°Г®Г­Г­Г»Г© Г±ГЎГ°Г®Г± (Г ГЄГІГЁГўГ­Г»Г© 0)
 
-    output logic        sck,        // Тактовый сигнал SPI
-    output logic        mosi,       // Выход данных SPI
-    output logic        cs_n,       // Сигнал выбора устройства
-    output logic        ldac_n,      // Сигнал загрузки DAC
+    output logic        sck,        // Г’Г ГЄГІГ®ГўГ»Г© Г±ГЁГЈГ­Г Г« SPI
+    output logic        mosi,       // Г‚Г»ГµГ®Г¤ Г¤Г Г­Г­Г»Гµ SPI
+    output logic        cs_n,       // Г‘ГЁГЈГ­Г Г« ГўГ»ГЎГ®Г°Г  ГіГ±ГІГ°Г®Г©Г±ГІГўГ 
+    output logic        ldac_n,      // Г‘ГЁГЈГ­Г Г« Г§Г ГЈГ°ГіГ§ГЄГЁ DAC
     
     input  logic [DATA_WIDTH-1:0] m_axis_tdata,
     input  logic m_axis_tvalid,
@@ -101,7 +101,7 @@ module spi #(
                 bit_counter <= DATA_WIDTH-1;
                
                 start_transmission <= 1'b0;
-                shift_reg <= fifo_data_out ;
+                
                 
                /* if(32'h01FFFFFC > fifo_data_out )
                     fifo_data_in <= fifo_data_out  + 32'b0000_0000_0000_0000_0000_0000_0000_0111;
@@ -111,7 +111,7 @@ module spi #(
                 tik_delay <= 1'b1;
                 fifo_rd_en <= 1'b0;
                 transmission_active <= 1'b1;
-                
+                shift_reg <= fifo_data_out ;
             end
             /*if (fifo_rd_en && fifo_data_out  != 32'b0)
                 fifo_wr_en <= 1'b1;
